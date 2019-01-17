@@ -26,7 +26,7 @@
 
 	if (isset($_POST['task']))
 	{
-		$task = addslashes($_POST['task']); //Make sure difficult characters work properly (e.g, apostrophes; slashes needed);
+		$task = addslashes($_POST['task']); //Make sure difficult characters work properly (e.g, apostrophes; slashes needed).
 	}
 
 	if (isset($_POST['duration']))
